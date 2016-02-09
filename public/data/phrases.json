@@ -5,16 +5,19 @@
 			"elements": [
 				{ 	
 					"name": "Lawrence Humphrey",
-					"src": "http://i.imgur.com/0FqbH8S.jpg"
+					"src": "img/people/lawrence.jpg"
 				},
 				{ 	
-					"name": "Noah Lafferty"
+					"name": "Noah Lafferty",
+					"src": "img/people/noah.jpg"
 				},
 				{ 	
-					"name": "Lisa Vuong"
+					"name": "Lisa Vuong",
+					"src": "img/people/lisa.jpg"
 				},
 				{ 	
-					"name": "Taylor Lampe"
+					"name": "Taylor Lampe",
+					"src": "img/people/taylor.jpg"
 				},
 				{ 	
 					"name": "Dave Huber"
@@ -23,16 +26,19 @@
 					"name": "Jenny Lanier"
 				},
 				{ 	
-					"name": "Rob Williams"
+					"name": "Rob Williams",
+					"src": "img/people/rob.jpg"
 				},
 				{ 	
 					"name": "Brittainy Anderson"
 				},
 				{ 	
-					"name": "Wen Xiong"
+					"name": "Wen Xiong",
+					"src": "img/people/wen.jpg"
 				},
 				{ 	
-					"name": "Kevin Yang"
+					"name": "Kevin Yang",
+					"src": "img/people/kevin.jpg"
 				},
 				{ 	
 					"name": "Hareen Godthi"
@@ -56,7 +62,8 @@
 					"name": "Mirko Azis"
 				},
 				{ 	
-					"name": "Adam Cutler"
+					"name": "Adam Cutler",
+					"src": "img/people/adam.jpg"
 				},
 				{ 	
 					"name": "Jodi Cutler"
