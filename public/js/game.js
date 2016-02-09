@@ -59,7 +59,8 @@ function nextPhrase() {
 
 		if (phrase.src) {
 			var im = $('<img src="' + phrase.src + '">');
-			$("#image").html(im);
+			$('#image').html(im);
+			$('#image').removeClass('hidden');
 		}
 
 		currentPhrase = currentPhrase + 1;

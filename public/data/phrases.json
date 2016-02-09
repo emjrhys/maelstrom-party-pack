@@ -6,56 +6,56 @@
 			"elements": [
 				{ 	
 					"name": "Lawrence Humphrey",
-					"src": "img/people/lawrence.jpg"
+					"src": "data/img/people/lawrence.jpg"
 				},
 				{ 	
 					"name": "Noah Lafferty",
-					"src": "img/people/noah.jpg"
+					"src": "data/img/people/noah.jpg"
 				},
 				{ 	
 					"name": "Lisa Vuong",
-					"src": "img/people/lisa.jpg"
+					"src": "data/img/people/lisa.jpg"
 				},
 				{ 	
 					"name": "Taylor Lampe",
-					"src": "img/people/taylor.jpg"
+					"src": "data/img/people/taylor.jpg"
 				},
 				{ 	
 					"name": "Dave Huber",
-					"src": "img/people/dave.jpg"
+					"src": "data/img/people/dave.jpg"
 				},
 				{ 	
 					"name": "Jenny Lanier"
 				},
 				{ 	
 					"name": "Rob Williams",
-					"src": "img/people/rob.jpg"
+					"src": "data/img/people/rob.jpg"
 				},
 				{ 	
 					"name": "Brittainy Anderson",
-					"src": "img/people/brittainy.jpg"
+					"src": "data/img/people/brittainy.jpg"
 				},
 				{ 	
 					"name": "Wen Xiong",
-					"src": "img/people/wen.jpg"
+					"src": "data/img/people/wen.jpg"
 				},
 				{ 	
 					"name": "Kevin Yang",
-					"src": "img/people/kevin.jpg"
+					"src": "data/img/people/kevin.jpg"
 				},
 				{ 	
 					"name": "Hareen Godthi"
 				},
 				{ 	
 					"name": "Andie Young",
-					"src": "img/people/andie.jpg"
+					"src": "data/img/people/andie.jpg"
 				},
 				{ 	
 					"name": "Leah Demeter"
 				},
 				{ 	
 					"name": "Devin O'Bryan",
-					"src": "img/people/devin.jpg"
+					"src": "data/img/people/devin.jpg"
 				},
 				{ 	
 					"name": "Doug Powell"
@@ -68,7 +68,7 @@
 				},
 				{ 	
 					"name": "Adam Cutler",
-					"src": "img/people/adam.jpg"
+					"src": "data/img/people/adam.jpg"
 				},
 				{ 	
 					"name": "Jodi Cutler"
@@ -197,7 +197,7 @@
 				},
 				{ 	
 					"name": "Face Paddles",
-					"src": "img/things/facepaddle.jpg"	
+					"src": "data/img/things/facepaddle.jpg"	
 				},
 				{ 	
 					"name": "Quote Wall"	
