@@ -1,11 +1,23 @@
 h1 {
 	font-weight: lighter;
+	font-size: 2em;
 
 	b {
 		font-weight: normal;
 	}
+
+	.category {
+		border-bottom: 2px solid $black;
+	}
 }
 
-#header {
+header {
+	position: fixed;
+	width: 100%;
+	padding: 0 30px;
 
+	text-align: left;
+
+	background-color: $white;
+	border-bottom: 1px solid #e9e9e9;
 }

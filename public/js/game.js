@@ -2,7 +2,7 @@ console.log("working");
 
 var data = {},
 	list = [],
-	maxTime = 5,
+	maxTime = 10000,
 	currentPhrase = 0,
 	gameTimer,
 	timeinterval;
@@ -55,6 +55,7 @@ function nextPhrase() {
 	if (gameTimer > 0) {
 		var phrase = list[currentPhrase];
 
+		$('#image').addClass('hidden').html();
 		$('#phrase').html(phrase.name);
 
 		if (phrase.src) {

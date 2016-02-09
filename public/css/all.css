@@ -1,8 +1,28 @@
 html, body {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  overflow: hidden; }
+  width: 100vw;
+  height: 100vh;
+  text-align: center; }
+
+.right-arrow {
+  margin: 0 10px; }
+
+.right-arrow::before, .right-arrow::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: #121212;
+  height: 2px;
+  width: 14px;
+  top: -3px;
+  left: -6px; }
+
+.right-arrow::before {
+  transform: rotate(45deg);
+  top: -12px;
+  left: 8px; }
+
+.right-arrow::after {
+  transform: rotate(-45deg); }
 
 html, body {
   font-family: Helvetica; }
@@ -364,21 +384,31 @@ th {
 
 #game {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fafafa;
   width: 100%;
   height: 100%; }
 
-#game .right-side {
-  flex-grow: 2; }
+#game h2 {
+  font-size: 4em;
+  margin: 0; }
 
 #image {
-  flex-grow: 1;
-  background-color: #f8f8f8; }
+  width: 40%;
+  height: 100vh;
+  overflow: hidden; }
 
 #image img {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 #image.hidden {
   display: none; }
+
+#phrase {
+  flex-grow: 2; }
 
 #next {
   position: absolute;
@@ -397,7 +427,19 @@ th {
   color: #af6ee8; }
 
 h1 {
-  font-weight: lighter; }
+  font-weight: lighter;
+  font-size: 2em; }
 
 h1 b {
   font-weight: normal; }
+
+h1 .category {
+  border-bottom: 2px solid #121212; }
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 0 30px;
+  text-align: left;
+  background-color: #fff;
+  border-bottom: 1px solid #e9e9e9; }
