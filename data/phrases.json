@@ -1,3 +1,23 @@
 {
-	people
+	categories: [
+		{
+			title: "People",
+			elements: [
+				{ 	
+					name: "Lawrence Humphrey",
+					src: "http://i.imgur.com/0FqbH8S.jpg"
+				},
+				{ 	
+					name: "Lawrence Humphrey"
+				}]
+		},
+		{
+			title: "Places",
+			elements: [
+				{ 	
+					name: "Shenanigans"				},
+				{ 	
+					name: "Staybridge Suites"
+				}]
+		}]
 }
