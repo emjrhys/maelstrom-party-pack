@@ -1,6 +1,7 @@
 {
 	"categories": [
 		{
+			"active": true,
 			"title": "People",
 			"elements": [
 				{ 	
@@ -97,6 +98,7 @@
 				]
 		},
 		{
+			"active": true,
 			"title": "Places",
 			"elements": [
 				{ 	
@@ -112,25 +114,62 @@
 					"name": "Top Golf"	
 				},
 				{ 	
-					"name": "Chataeu Staybridge"	
-				},
-				{ 	
 					"name": "IBM Cafeteria"	
 				},
 				{ 	
 					"name": "Zilker Park"	
 				},
 				{ 	
-					"name": "Torchy's Tacos (overrated)"	
+					"name": "Torchy's Tacos"	
 				},
 				{ 	
-					"name": "Chuys"	
+					"name": "Chuy's"	
+				},
+				{ 	
+					"name": "Hopdoddy Burger Bar"	
+				},
+				{ 	
+					"name": "P. Terry's"	
+				},
+				{ 	
+					"name": "Gourdough's"	
+				},
+				{ 	
+					"name": "IBM"	
+				},
+				{ 	
+					"name": "Building 903"	
+				},
+				{ 	
+					"name": "7th Floor"	
+				},
+				{ 	
+					"name": "The Domain"	
+				},
+				{ 	
+					"name": "Whole Foods"	
+				},
+				{ 	
+					"name": "H.E.B."	
+				},
+				{ 	
+					"name": "Alamo Drafthouse"	
+				},
+				{ 	
+					"name": "Rainey St"	
+				},
+				{ 	
+					"name": "Dirty Sixth"	
+				},
+				{ 	
+					"name": "Texas State Capitol"	
 				},
 				{
 					"name": "Punch Bowl Social"	
 				}]
 		},
 		{
+			"active": true,
 			"title": "Things",
 			"elements": [
 				{ 	
@@ -150,7 +189,7 @@
 					"name": "Over Under"	
 				},
 				{ 	
-					"name": "Guide to Everything Book"	
+					"name": "The Guide to Everything"	
 				},
 				{ 	
 					"name": "The Loop"	
@@ -160,15 +199,6 @@
 				},
 				{
 					"name": "Design Language"	
-				},
-				{
-					"name": "Observe"	
-				},
-				{
-					"name": "Reflect"	
-				},
-				{
-					"name": "Make"	
 				},
 				{
 					"name": "Kevin's Calves"	
@@ -201,7 +231,7 @@
 					"name": "Verse"
 				},
 				{
-					"name": "Lotus iNotes"
+					"name": "Lotus Notes"
 				},
 				{
 					"name": "Badges"
@@ -219,13 +249,19 @@
 					"name": "After Effects"
 				},
 				{
-					"name": "The As – Is"
+					"name": "The As–Is"
 				},
 				{
-					"name": "The To – Be"
+					"name": "The To–Be"
 				},
 				{
 					"name": "Hills"
+				},
+				{ 	
+					"name": "GroupMe"	
+				},
+				{ 	
+					"name": "Food Trucks"	
 				},
 				{
 					"name": "Personas"
@@ -233,6 +269,7 @@
 				]
 		},
 		{
+			"active": true,
 			"title": "Activities",
 			"elements": [
 				{ 	
@@ -242,16 +279,16 @@
 					"name": "Drinking"
 				},
 				{ 	
-					"name": "Headband Game"	
+					"name": "Headband"	
 				},
 				{ 	
 					"name": "Drawful"	
 				},
 				{ 	
-					"name": "Prank Other Teams"	
+					"name": "Pranks"	
 				},
 				{ 	
-					"name": "Jumping in the Pool"	
+					"name": "Jump in the Pool"	
 				},
 				{ 	
 					"name": "Getting Paid"	
@@ -270,6 +307,7 @@
 				}]
 		},
 		{
+			"active": true,
 			"title": "Buzzwords",
 			"elements": [
 				{ 	
@@ -285,22 +323,31 @@
 					"name": "Agile"	
 				},
 				{ 	
+					"name": "Internet of Things"	
+				},
+				{ 	
+					"name": "Onboarding"	
+				},
+				{ 	
+					"name": "Artificial Intelligent"	
+				},
+				{ 	
+					"name": "Cognitive Computing"	
+				},
+				{ 	
 					"name": "Personalized"	
 				},
-				{ 	
-					"name": "Jumping in the Pool"	
+				{
+					"name": "Observe"	
 				},
-				{ 	
-					"name": "Getting Paid"	
+				{
+					"name": "Reflect"	
 				},
-				{ 	
-					"name": "Not Getting Paid"	
+				{
+					"name": "Make"	
 				},
-				{ 	
-					"name": "Playing Ping Pong"	
-				},
-				{ 	
-					"name": "Plan a TV Show"	
+				{
+					"name": "Support, Engage, Inform"	
 				}]
 		}]
 }
