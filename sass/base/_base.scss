@@ -16,7 +16,7 @@ html, body {
 		position: relative;
 		background-color: $black;
 		height: 2px;
-		width: 14px;
+		width: 10px;
 
 		top: -3px;
 		left: -6px;
@@ -24,8 +24,8 @@ html, body {
 
 	&::before {
 		transform: rotate(45deg);
-		top: -12px;
-		left: 8px;
+		top: -10px;
+		left: 4px;
 	}
 
 	&::after {
