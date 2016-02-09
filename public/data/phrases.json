@@ -20,7 +20,8 @@
 					"src": "img/people/taylor.jpg"
 				},
 				{ 	
-					"name": "Dave Huber"
+					"name": "Dave Huber",
+					"src": "img/people/dave.jpg"
 				},
 				{ 	
 					"name": "Jenny Lanier"
@@ -30,7 +31,8 @@
 					"src": "img/people/rob.jpg"
 				},
 				{ 	
-					"name": "Brittainy Anderson"
+					"name": "Brittainy Anderson",
+					"src": "img/people/brittainy.jpg"
 				},
 				{ 	
 					"name": "Wen Xiong",
@@ -44,13 +46,15 @@
 					"name": "Hareen Godthi"
 				},
 				{ 	
-					"name": "Andie Young"
+					"name": "Andie Young",
+					"src": "img/people/andie.jpg"
 				},
 				{ 	
 					"name": "Leah Demeter"
 				},
 				{ 	
-					"name": "Devin O'Bryan"
+					"name": "Devin O'Bryan",
+					"src": "img/people/devin.jpg"
 				},
 				{ 	
 					"name": "Doug Powell"
