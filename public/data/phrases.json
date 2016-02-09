@@ -93,6 +93,9 @@
 				},
 				{ 	
 					"name": "Bootcampers"	
+				},
+				{ 	
+					"name": "Terry Yoo"	
 				}
 				]
 		},
@@ -128,6 +131,9 @@
 				},
 				{
 					"name": "Punch Bowl Social"	
+				},
+				{
+					"name": "Austin, Texas"	
 				}]
 		},
 		{
@@ -141,7 +147,7 @@
 				},
 				{ 	
 					"name": "Face Paddles",
-					"src": "http://i.imgur.com/0FqbH8S.jpg"	
+					"src": "img/things/facepaddle.jpg"	
 				},
 				{ 	
 					"name": "Quote Wall"	
@@ -302,5 +308,13 @@
 				{ 	
 					"name": "Plan a TV Show"	
 				}]
+		},
+		{
+			"title": "Icons",
+			"elements":	[
+			{ 	
+			"name": "Deploy"
+			}]
+
 		}]
 }
