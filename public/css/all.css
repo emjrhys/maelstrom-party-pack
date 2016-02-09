@@ -1,8 +1,7 @@
 html, body {
   width: 100vh;
   height: 100vh;
-  text-align: center;
-  overflow: hidden; }
+  text-align: center; }
 
 .right-arrow {
   margin: 0 10px; }
