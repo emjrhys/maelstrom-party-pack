@@ -25,7 +25,8 @@
 					"src": "data/img/people/dave.jpg"
 				},
 				{ 	
-					"name": "Jenny Lanier"
+					"name": "Jenny Lanier",
+					"src": "data/img/people/jenny.jpg"
 				},
 				{ 	
 					"name": "Rob Williams",
@@ -44,24 +45,30 @@
 					"src": "data/img/people/kevin.jpg"
 				},
 				{ 	
-					"name": "Hareen Godthi"
+					"name": "Hareen Godthi",
+					"src": "data/img/people/hareen.jpg"
 				},
 				{ 	
 					"name": "Andie Young",
 					"src": "data/img/people/andie.jpg"
 				},
 				{ 	
-					"name": "Leah Demeter"
+					"name": "Leah Demeter",
+					"src": "data/img/people/leah.jpg"
 				},
 				{ 	
 					"name": "Devin O'Bryan",
 					"src": "data/img/people/devin.jpg"
 				},
 				{ 	
-					"name": "Doug Powell"
+					"name": "Doug Powell",
+					"src": "data/img/people/doug.jpg"
 				},
 				{ 	
 					"name": "Phil Gilbert"
+				},
+				{ 	
+					"name": "Hayley Hughes"
 				},
 				{ 	
 					"name": "Mirko Azis"
@@ -71,10 +78,12 @@
 					"src": "data/img/people/adam.jpg"
 				},
 				{ 	
-					"name": "Jodi Cutler"
+					"name": "Jodi Cutler",
+					"src": "data/img/people/jodi.jpg"
 				},
 				{ 	
-					"name": "Ginni Rometty"
+					"name": "Ginni Rometty",
+					"src": "data/img/people/ginny.jpg"
 				},
 				{ 	
 					"name": "Thomas Watson"
@@ -95,7 +104,8 @@
 					"name": "Veronica Ward"
 				},
 				{ 	
-					"name": "John Cena"
+					"name": "John Cena",
+					"src": "data/img/people/johncena.jpg"
 				},
 				{
 					"name": "Pinocchios"
@@ -170,10 +180,13 @@
 					"name": "Alamo Drafthouse"	
 				},
 				{ 	
-					"name": "Rainey St"	
+					"name": "Rainey Street"	
 				},
 				{ 	
 					"name": "Dirty Sixth"	
+				},
+				{ 	
+					"name": "Gold's Gym"	
 				},
 				{ 	
 					"name": "Texas State Capitol"	
@@ -206,7 +219,7 @@
 					"name": "Over Under"	
 				},
 				{ 	
-					"name": "The Guide to Everything"	
+					"name": "The Guide to Everything Book"	
 				},
 				{ 	
 					"name": "The Loop"	
@@ -293,7 +306,10 @@
 					"name": "Catchphrase"
 				},
 				{ 	
-					"name": "Drinking"
+					"name": "Drink"
+				},
+				{ 	
+					"name": "Drinking Games"	
 				},
 				{ 	
 					"name": "Headband"	
@@ -314,10 +330,29 @@
 					"name": "Not Getting Paid"	
 				},
 				{ 	
-					"name": "Ping Pong"	
+<<<<<<< HEAD
+					"name": "Play Ping Pong"	
 				},
 				{ 	
-					"name": "Prototyping"	
+					"name": "Check UPS for paychecks"	
+				},
+				{ 	
+					"name": "Plan a TV Show"	
+=======
+					"name": "Ping Pong"	
+>>>>>>> 9547233a0fe99b2b1cc3b6caa70da2c6060e76de
+				},
+				{ 	
+					"name": "Kickball"	
+				},
+				{ 	
+					"name": "Kite Flying"	
+				},
+				{ 	
+					"name": "Prototype"	
+				},
+				{ 	
+					"name": "Ice Skate at Whole Foods"	
 				}]
 		},
 		{
@@ -360,6 +395,24 @@
 				{
 					"name": "Make"	
 				},
+				{ 	
+					"name": "Outcomes"	
+				},
+				{ 	
+					"name": "Framework"	
+				},
+				{ 	
+					"name": "Multidisciplinary"	
+				},
+				{ 	
+					"name": "Interdisciplinary"	
+				},
+				{ 	
+					"name": "Radical Collaboration"	
+				},
+				{ 	
+					"name": "Foundation"	
+				},
 				{
 					"name": "Support, Engage, Inform"	
 				}]
@@ -368,7 +421,7 @@
 			"title": "Icons",
 			"elements":	[
 			{ 	
-			"name": "Deploy"
+				"name": "Boob Icon (Deploy)"
 			}]
 
 		}]
