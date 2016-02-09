@@ -1,5 +1,5 @@
 {
-  "name": "Maelstrom Catchphrase",
+  "name": "maelstrom-catchphrase",
   "version": "0.1.0",
   "description": "Catchphrase for Maelstromers",
   "main": "app.js",
