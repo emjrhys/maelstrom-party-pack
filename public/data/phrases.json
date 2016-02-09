@@ -1,328 +1,306 @@
 {
-	categories: [
+	"categories": [
 		{
-			title: "People",
-			elements: [
+			"title": "People",
+			"elements": [
 				{ 	
-					name: "Lawrence Humphrey",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Lawrence Humphrey",
+					"src": "http://i.imgur.com/0FqbH8S.jpg"
 				},
 				{ 	
-					name: "Noah Lafferty",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Noah Lafferty"
 				},
 				{ 	
-					name: "Lisa Vuong",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Lisa Vuong"
 				},
 				{ 	
-					name: "Taylor Lampe",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Taylor Lampe"
 				},
 				{ 	
-					name: "Dave Huber",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Dave Huber"
 				},
 				{ 	
-					name: "Jenny Lanier",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Jenny Lanier"
 				},
 				{ 	
-					name: "Rob Williams",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Rob Williams"
 				},
 				{ 	
-					name: "Brittainy Anderson",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Brittainy Anderson"
 				},
 				{ 	
-					name: "Wen Xiong",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Wen Xiong"
 				},
 				{ 	
-					name: "Kevin Yang",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Kevin Yang"
 				},
 				{ 	
-					name: "Hareen Godthi",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Hareen Godthi"
 				},
 				{ 	
-					name: "Andie Young",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Andie Young"
 				},
 				{ 	
-					name: "Leah Demeter",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Leah Demeter"
 				},
 				{ 	
-					name: "Devin O'Bryan",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Devin O'Bryan"
 				},
 				{ 	
-					name: "Doug Powell",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Doug Powell"
 				},
 				{ 	
-					name: "Phil Gilbert",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Phil Gilbert"
 				},
 				{ 	
-					name: "Mirko Azis",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Mirko Azis"
 				},
 				{ 	
-					name: "Adam Cutler",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Adam Cutler"
 				},
 				{ 	
-					name: "Jodi Cutler",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Jodi Cutler"
 				},
 				{ 	
-					name: "Ginni Rometty",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Ginni Rometty"
 				},
 				{ 	
-					name: "Thomas Watson",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Thomas Watson"
 				},
 				{ 	
-					name: "Watson",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Watson"
 				},
 				{ 	
-					name: "Fahad Osmani",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Fahad Osmani"
 				},
 				{ 	
-					name: "Tiffany Shine",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Tiffany Shine"
 				},
 				{ 	
-					name: "Tifferonica",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Tifferonica"
 				},
 				{ 	
-					name: "Veronica Ward",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "Veronica Ward"
 				},
 				{ 	
-					name: "John Cena",
-					src: "http://i.imgur.com/0FqbH8S.jpg"
+					"name": "John Cena"
 				},
 				{
-					name: "Pinocchios"
+					"name": "Pinocchios"
 				},
 				{ 	
-					name: "Julie Johnson"	
+					"name": "Julie Johnson"	
 				},
 				{ 	
-					name: "Bootcampers"	
+					"name": "Bootcampers"	
 				}
 				]
 		},
 		{
-			title: "Places",
-			elements: [
+			"title": "Places",
+			"elements": [
 				{ 	
-					name: "Shenanigans"
+					"name": "Shenanigans"
 				},
 				{ 	
-					name: "Staybridge Suites"
+					"name": "Staybridge Suites"
 				},
 				{ 	
-					name: "Green Space"	
+					"name": "Green Space"	
 				},
 				{ 	
-					name: "Top Golf"	
+					"name": "Top Golf"	
 				},
 				{ 	
-					name: "Chataeu Staybridge"	
+					"name": "Chataeu Staybridge"	
 				},
 				{ 	
-					name: "IBM Cafeteria"	
+					"name": "IBM Cafeteria"	
 				},
 				{ 	
-					name: "Zilker Park"	
+					"name": "Zilker Park"	
 				},
 				{ 	
-					name: "Torchy's Tacos (overrated)"	
+					"name": "Torchy's Tacos (overrated)"	
 				},
 				{ 	
-					name: "Chuys"	
+					"name": "Chuys"	
 				},
 				{
-					name: "Punch Bowl Social"	
+					"name": "Punch Bowl Social"	
 				}]
 		},
 		{
-			title: "Things",
-			elements: [
+			"title": "Things",
+			"elements": [
 				{ 	
-					name: "Post-Its"
-				},
-				{ 	
-					name: "Moveable Whiteboards"
+					"name": "Post-Its"
 				},
 				{ 	
-					name: "Face Paddles"
-					src: "http://i.imgur.com/0FqbH8S.jpg"	
+					"name": "Moveable Whiteboards"
 				},
 				{ 	
-					name: "Quote Wall"	
+					"name": "Face Paddles",
+					"src": "http://i.imgur.com/0FqbH8S.jpg"	
 				},
 				{ 	
-					name: "Over Under"	
+					"name": "Quote Wall"	
 				},
 				{ 	
-					name: "Guide to Everything Book"	
+					"name": "Over Under"	
 				},
 				{ 	
-					name: "The Loop"	
-				},
-
-					name: "Design Thinking"	
-				},
-
-					name: "Design Language"	
-				},
-
-					name: "Observe"	
-				},
-
-					name: "Reflect"	
-				},
-				{
-					name: "Make"	
-				},
-				{
-					name: "Kevin's Calves"	
-				},
-				{
-					name: "Maelstrom"	
-				},
-				{
-					name: "Playbacks"	
-				},
-				{
-					name: "Stakeholders"	
-				},
-				{
-					name: "Sponsor Users"	
-				},
-				{
-					name: "Halcyon"	
+					"name": "Guide to Everything Book"	
 				},
 				{ 	
-					name: "Critical"	
+					"name": "The Loop"	
+				},
+				{
+					"name": "Design Thinking"	
+				},
+				{
+					"name": "Design Language"	
+				},
+				{
+					"name": "Observe"	
+				},
+				{
+					"name": "Reflect"	
+				},
+				{
+					"name": "Make"	
+				},
+				{
+					"name": "Kevin's Calves"	
+				},
+				{
+					"name": "Maelstrom"	
+				},
+				{
+					"name": "Playbacks"	
+				},
+				{
+					"name": "Stakeholders"	
+				},
+				{
+					"name": "Sponsor Users"	
+				},
+				{
+					"name": "Halcyon"	
 				},
 				{ 	
-					name: "Friends Intro"	
+					"name": "Critical"	
+				},
+				{ 	
+					"name": "Friends Intro"	
 				},
 				{
-					name: "Pizza Tracker"
+					"name": "Pizza Tracker"
 				},
 				{
-					name: "Verse"
+					"name": "Verse"
 				},
 				{
-					name: "Lotus iNotes"
+					"name": "Lotus iNotes"
 				},
 				{
-					name: "Badges"
+					"name": "Badges"
 				},
 				{
-					name: "Illustrator"
+					"name": "Illustrator"
 				},
 				{
-					name: "Photoshop"
+					"name": "Photoshop"
 				},
 				{
-					name: "Sketch"
+					"name": "Sketch"
 				},
 				{
-					name: "After Effects"
+					"name": "After Effects"
 				},
 				{
-					name: "The As – Is"
+					"name": "The As – Is"
 				},
 				{
-					name: "The To – Be"
+					"name": "The To – Be"
 				},
 				{
-					name: "Hills"
+					"name": "Hills"
+				},
+				{
+					"name": "Personas"
+				}
+				]
+		},
+		{
+			"title": "Activities",
+			"elements": [
+				{ 	
+					"name": "Catchphrase"
+				},
+				{ 	
+					"name": "Drinking"
+				},
+				{ 	
+					"name": "Headband Game"	
+				},
+				{ 	
+					"name": "Drawful"	
+				},
+				{ 	
+					"name": "Prank Other Teams"	
+				},
+				{ 	
+					"name": "Jumping in the Pool"	
+				},
+				{ 	
+					"name": "Getting Paid"	
+				},
+				{ 	
+					"name": "Not Getting Paid"	
+				},
+				{ 	
+					"name": "Playing Ping Pong"	
+				},
+				{ 	
+					"name": "Plan a TV Show"	
+				},
+				{ 	
+					"name": "Prototyping"	
 				}]
 		},
 		{
-			title: "Activities",
-			elements: [
+			"title": "Buzzwords",
+			"elements": [
 				{ 	
-					name: "Catchphrase"
+					"name": "Scalibility"
 				},
 				{ 	
-					name: "Drinking"
+					"name": "Engagement"
 				},
 				{ 	
-					name: "Headband Game"	
+					"name": "Transparency"	
 				},
 				{ 	
-					name: "Drawful"	
+					"name": "Agile"	
 				},
 				{ 	
-					name: "Prank Other Teams"	
+					"name": "Personalized"	
 				},
 				{ 	
-					name: "Jumping in the Pool"	
+					"name": "Jumping in the Pool"	
 				},
 				{ 	
-					name: "Getting Paid"	
+					"name": "Getting Paid"	
 				},
 				{ 	
-					name: "Not Getting Paid"	
+					"name": "Not Getting Paid"	
 				},
 				{ 	
-					name: "Playing Ping Pong"	
+					"name": "Playing Ping Pong"	
 				},
 				{ 	
-					name: "Plan a TV Show"	
-				},
-				{ 	
-					name: "Prototyping"	
-				}]
-		},
-		{
-			title: "Buzzwords",
-			elements: [
-				{ 	
-					name: "Scalibility"
-				},
-				{ 	
-					name: "Engagement"
-				},
-				{ 	
-					name: "Transparency"	
-				},
-				{ 	
-					name: "Agile"	
-				},
-				{ 	
-					name: "Personalized"	
-				},
-				{ 	
-					name: "Jumping in the Pool"	
-				},
-				{ 	
-					name: "Getting Paid"	
-				},
-				{ 	
-					name: "Not Getting Paid"	
-				},
-				{ 	
-					name: "Playing Ping Pong"	
-				},
-				{ 	
-					name: "Plan a TV Show"	
+					"name": "Plan a TV Show"	
 				}]
 		}]
 }
