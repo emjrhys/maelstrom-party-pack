@@ -1,0 +1,21 @@
+{
+  "name": "Maelstrom Catchphrase",
+  "version": "0.1.0",
+  "description": "Catchphrase for Maelstromers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahjl1/maelstrom-catchphrase"
+  },
+  "license": "MIT"
+}
