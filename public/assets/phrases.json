@@ -6,63 +6,63 @@
 			"elements": [
 				{ 	
 					"name": "Lawrence Humphrey",
-					"src": "data/img/people/lawrence.jpg"
+					"src": "assets/img/people/lawrence.jpg"
 				},
 				{ 	
 					"name": "Noah Lafferty",
-					"src": "data/img/people/noah.jpg"
+					"src": "assets/img/people/noah.jpg"
 				},
 				{ 	
 					"name": "Lisa Vuong",
-					"src": "data/img/people/lisa.jpg"
+					"src": "assets/img/people/lisa.jpg"
 				},
 				{ 	
 					"name": "Taylor Lampe",
-					"src": "data/img/people/taylor.jpg"
+					"src": "assets/img/people/taylor.jpg"
 				},
 				{ 	
 					"name": "Dave Huber",
-					"src": "data/img/people/dave.jpg"
+					"src": "assets/img/people/dave.jpg"
 				},
 				{ 	
 					"name": "Jenny Lanier",
-					"src": "data/img/people/jenny.jpg"
+					"src": "assets/img/people/jenny.jpg"
 				},
 				{ 	
 					"name": "Rob Williams",
-					"src": "data/img/people/rob.jpg"
+					"src": "assets/img/people/rob.jpg"
 				},
 				{ 	
 					"name": "Brittainy Anderson",
-					"src": "data/img/people/brittainy.jpg"
+					"src": "assets/img/people/brittainy.jpg"
 				},
 				{ 	
 					"name": "Wen Xiong",
-					"src": "data/img/people/wen.jpg"
+					"src": "assets/img/people/wen.jpg"
 				},
 				{ 	
 					"name": "Kevin Yang",
-					"src": "data/img/people/kevin.jpg"
+					"src": "assets/img/people/kevin.jpg"
 				},
 				{ 	
 					"name": "Hareen Godthi",
-					"src": "data/img/people/hareen.jpg"
+					"src": "assets/img/people/hareen.jpg"
 				},
 				{ 	
 					"name": "Andie Young",
-					"src": "data/img/people/andie.jpg"
+					"src": "assets/img/people/andie.jpg"
 				},
 				{ 	
 					"name": "Leah Demeter",
-					"src": "data/img/people/leah.jpg"
+					"src": "assets/img/people/leah.jpg"
 				},
 				{ 	
 					"name": "Devin O'Bryan",
-					"src": "data/img/people/devin.jpg"
+					"src": "assets/img/people/devin.jpg"
 				},
 				{ 	
 					"name": "Doug Powell",
-					"src": "data/img/people/doug.jpg"
+					"src": "assets/img/people/doug.jpg"
 				},
 				{ 	
 					"name": "Phil Gilbert"
@@ -75,15 +75,15 @@
 				},
 				{ 	
 					"name": "Adam Cutler",
-					"src": "data/img/people/adam.jpg"
+					"src": "assets/img/people/adam.jpg"
 				},
 				{ 	
 					"name": "Jodi Cutler",
-					"src": "data/img/people/jodi.jpg"
+					"src": "assets/img/people/jodi.jpg"
 				},
 				{ 	
 					"name": "Ginni Rometty",
-					"src": "data/img/people/ginny.jpg"
+					"src": "assets/img/people/ginny.jpg"
 				},
 				{ 	
 					"name": "Thomas Watson"
@@ -105,7 +105,7 @@
 				},
 				{ 	
 					"name": "John Cena",
-					"src": "data/img/people/johncena.jpg"
+					"src": "assets/img/people/johncena.jpg"
 				},
 				{
 					"name": "Pinocchios"
@@ -219,7 +219,7 @@
 				},
 				{ 	
 					"name": "Face Paddles",
-					"src": "data/img/things/facepaddle.jpg"	
+					"src": "assets/img/things/facepaddle.jpg"	
 				},
 				{ 	
 					"name": "Quote Wall"	
