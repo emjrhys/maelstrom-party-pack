@@ -8,7 +8,7 @@ var data = {},
 	gameTimer,
 	timeinterval;
 
-$.getJSON( "data/phrases.json", function( d ) {
+$.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
 	console.log(data);
 
@@ -56,7 +56,8 @@ function init() {
 	timeinterval = setTimeout(lowerTimer, 1000);
 
 	$('#game').removeClass('hidden');
-	$('#gameOver').addClass('hidden');
+	$('#gameover').addClass('hidden');
+	$('header').removeClass('hidden');
 	nextPhrase();
 }
 
@@ -100,5 +101,7 @@ function lowerTimer() {
 } 
 
 function endRound() {
-	$('#game, #gameover').toggleClass('hidden');
+	$('#game').addClass('hidden');
+	$('#gameover').removeClass('hidden');
+	$('header').addClass('hidden');
 }
