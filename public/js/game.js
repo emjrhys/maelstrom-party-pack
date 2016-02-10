@@ -2,8 +2,9 @@ console.log("working");
 
 var data = {},
 	list = [],
-	maxTime = 10000,
+	maxTime = 120,
 	currentPhrase = 0,
+	currentSkip = 0,
 	gameTimer,
 	timeinterval;
 
@@ -63,8 +64,10 @@ function nextPhrase() {
 			$('#image').html(im);
 			$('#image').removeClass('hidden');
 		}
-
+		
+		gameTimer = gameTimer - currentSkip;
 		currentPhrase = currentPhrase + 1;
+		currentSkip = currentSkip + 1;
 
 		if (currentPhrase >= list.length) {
 			generateList();
@@ -82,7 +85,9 @@ function lowerTimer() {
         clearInterval(timeinterval);
         console.log("game over!")
     }
-}
+
+    console.log(gameTimer);
+} 
 
 function endRound() {
 }
