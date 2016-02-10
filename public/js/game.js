@@ -6,7 +6,8 @@ var data = {},
 	currentPhrase,
 	currentSpeed,
 	gameTimer,
-	timeinterval;
+	timeinterval,
+	gameEndSound = new Audio("../assets/sounds/templebell.mp3");
 
 $.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
@@ -101,6 +102,7 @@ function lowerTimer() {
 } 
 
 function endRound() {
+	gameEndSound.play();
 	$('#game').addClass('hidden');
 	$('#gameover').removeClass('hidden');
 	$('header').addClass('hidden');
