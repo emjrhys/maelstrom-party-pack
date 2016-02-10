@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
 	var name = "Noah";
-    res.render('pages/index', {
+    res.render('pages/play', {
     	name: name
     });
 });
