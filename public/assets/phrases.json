@@ -116,6 +116,9 @@
 				{ 	
 					"name": "Bootcampers"	
 				},
+				{
+					"name": "Sassy Salad Bitches"	
+				},
 				{ 	
 					"name": "Terry Yoo"	
 				}
@@ -196,6 +199,12 @@
 				},
 				{
 					"name": "Austin, Texas"	
+				},
+				{
+					"name": "Dave's Shortcuts"	
+				},
+				{
+					"name": "Shortcut to Shenanigans"	
 				}]
 		},
 		{
@@ -295,6 +304,12 @@
 				},
 				{
 					"name": "Personas"
+				},
+				{
+					"name": "Dribbble"
+				},
+				{
+					"name": "Incubator Project"
 				}
 				]
 		},
@@ -341,8 +356,32 @@
 				{ 	
 					"name": "Prototype"	
 				},
+				{
+					"name": "Taking the Stairs"	
+				},
+				{
+					"name": "Working Out in the Morning"	
+				},
+				{
+					"name": "Eating a Cookie in an Interview"	
+				},
 				{ 	
 					"name": "Ice Skate at Whole Foods"	
+				},
+				{
+					"name": "Taylor Beating Everyone to Work"	
+				},
+				{
+					"name": "Scary Hike at Night"	
+				},
+				{
+					"name": "Getting Manicures"	
+				},
+				{
+					"name": "Gossip"	
+				},
+				{
+					"name": "Elevator Racing"	
 				}]
 		},
 		{
