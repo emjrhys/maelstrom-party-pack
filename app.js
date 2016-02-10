@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('public/data/phrases.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('public/assets/phrases.json', 'utf8'));
 
 app.set('port', (process.env.PORT || 5000));
 
