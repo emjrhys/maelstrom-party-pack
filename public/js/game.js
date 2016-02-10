@@ -2,9 +2,9 @@ console.log("working");
 
 var data = {},
 	list = [],
-	maxTime = 120,
-	currentPhrase = 0,
-	currentSkip = 0,
+	maxTime = 60,
+	currentPhrase,
+	currentSpeed,
 	gameTimer,
 	timeinterval;
 
@@ -16,6 +16,8 @@ $.getJSON( "data/phrases.json", function( d ) {
 });
 
 $('#next').click(nextPhrase);
+
+$('#gameover button').click(init);
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -48,7 +50,13 @@ function init() {
 	generateList();
 
 	gameTimer = maxTime;
-	timeinterval = setInterval(lowerTimer, 1000);
+	currentPhrase = 0;
+	currentSpeed = 1;
+
+	timeinterval = setTimeout(lowerTimer, 1000);
+
+	$('#game').removeClass('hidden');
+	$('#gameOver').addClass('hidden');
 	nextPhrase();
 }
 
@@ -65,9 +73,8 @@ function nextPhrase() {
 			$('#image').removeClass('hidden');
 		}
 		
-		gameTimer = gameTimer - currentSkip;
 		currentPhrase = currentPhrase + 1;
-		currentSkip = currentSkip + 1;
+		currentSpeed = currentSpeed + 1;
 
 		if (currentPhrase >= list.length) {
 			generateList();
@@ -76,18 +83,22 @@ function nextPhrase() {
 }
 
 function lowerTimer() {
-	var t = gameTimer;
+    gameTimer = gameTimer - 1;
 
-    gameTimer = t - 1;
-
-    if(t <= 0){
-        t = 0;
+    if(gameTimer <= 0){
+        gameTimer = 0;
         clearInterval(timeinterval);
         console.log("game over!")
+        endRound();
+        
+    } else {
+    	setTimeout(lowerTimer, 1000 - currentSpeed * 20);
     }
 
     console.log(gameTimer);
+    $('.category').html(gameTimer);
 } 
 
 function endRound() {
+	$('#game, #gameover').toggleClass('hidden');
 }
