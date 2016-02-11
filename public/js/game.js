@@ -2,12 +2,12 @@ console.log("working");
 
 var data = {},
 	list = [],
-	maxTime = 60,
+	maxTime = 180,
 	currentPhrase,
 	currentSpeed,
 	gameTimer,
 	timeinterval,
-	gameEndSound = new Audio("../assets/sounds/templebell.mp3");
+	gameStartSound = new Audio("../assets/sounds/templebell.mp3");
 
 $.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
@@ -59,6 +59,7 @@ function init() {
 	$('#game').removeClass('hidden');
 	$('#gameover').addClass('hidden');
 	$('header').removeClass('hidden');
+	gameStartSound.play();
 	nextPhrase();
 }
 
@@ -102,7 +103,6 @@ function lowerTimer() {
 } 
 
 function endRound() {
-	gameEndSound.play();
 	$('#game').addClass('hidden');
 	$('#gameover').removeClass('hidden');
 	$('header').addClass('hidden');
