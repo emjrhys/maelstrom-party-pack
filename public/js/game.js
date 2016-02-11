@@ -19,7 +19,7 @@ $.getJSON( "assets/phrases.json", function( d ) {
 	init();
 });
 
-$('#next').click(nextPhrase);
+$('html, body').on('click', '#game', nextPhrase);
 
 $('#gameover button').click(init);
 
@@ -92,8 +92,9 @@ function lowerTimer() {
     gameTimer = gameTimer - 1;
 
     if ((gameTimer%3 == 0)) {
+    	gameTimerSound.pause();
+	    gameTimerSound.currentTime = 0;
     	gameTimerSound.play();
-    	console.log("play", gameTimer%3);
     }
 
     if(gameTimer <= 0) {

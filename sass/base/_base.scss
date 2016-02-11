@@ -1,3 +1,8 @@
+/* CONSTANTS */
+$small-breakpoint:  em(640)  !default;
+$medium-breakpoint: em(1024) !default;
+$large-breakpoint:  em(1440) !default;
+
 html, body {
 	width: 100vw;
 	height: 100vh;
@@ -5,34 +10,4 @@ html, body {
 	text-align: center;
 
 	// overflow: hidden;
-}
-
-.right-arrow {
-	margin: 0 10px; 
-
-	&::before, &::after {
-		content: ""; 
-		display: inline-block;
-		position: relative;
-		background-color: $black;
-		height: 2px;
-		width: 10px;
-
-		top: -3px;
-		left: -6px;
-	}
-
-	&::before {
-		transform: rotate(45deg);
-		top: -10px;
-		left: 4px;
-	}
-
-	&::after {
-		transform: rotate(-45deg);
-	}
-}
-
-.hidden {
-	display: none !important;
 }
