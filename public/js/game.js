@@ -6,9 +6,10 @@ var data = {},
 	currentPhrase,
 	currentSpeed,
 	gameTimer,
-	timeinterval;
+	timeinterval,
+	gameEndSound = new Audio("../assets/sounds/templebell.mp3");
 
-$.getJSON( "data/phrases.json", function( d ) {
+$.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
 	console.log(data);
 
@@ -56,7 +57,8 @@ function init() {
 	timeinterval = setTimeout(lowerTimer, 1000);
 
 	$('#game').removeClass('hidden');
-	$('#gameOver').addClass('hidden');
+	$('#gameover').addClass('hidden');
+	$('header').removeClass('hidden');
 	nextPhrase();
 }
 
@@ -100,5 +102,8 @@ function lowerTimer() {
 } 
 
 function endRound() {
-	$('#game, #gameover').toggleClass('hidden');
+	gameEndSound.play();
+	$('#game').addClass('hidden');
+	$('#gameover').removeClass('hidden');
+	$('header').addClass('hidden');
 }

@@ -228,7 +228,7 @@
 					"name": "Over Under"	
 				},
 				{ 	
-					"name": "The Guide to Everything Book"	
+					"name": "The Guide to Everything"	
 				},
 				{ 	
 					"name": "The Loop",
@@ -360,20 +360,11 @@
 				{
 					"name": "Taking the Stairs"	
 				},
-				{
-					"name": "Working Out in the Morning"	
-				},
-				{
-					"name": "Eating a Cookie in an Interview"	
-				},
 				{ 	
-					"name": "Ice Skate at Whole Foods"	
+					"name": "Ice Skating at Whole Foods"	
 				},
 				{
-					"name": "Taylor Beating Everyone to Work"	
-				},
-				{
-					"name": "Scary Hike at Night"	
+					"name": "Hiking"	
 				},
 				{
 					"name": "Getting Manicures"	
@@ -454,7 +445,7 @@
 			"title": "Icons",
 			"elements":	[
 			{ 	
-				"name": "Boob Icon (Deploy)"
+				"name": "Deploy Icon"
 			}]
 
 		}]

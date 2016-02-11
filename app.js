@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var data = JSON.parse(fs.readFileSync('public/data/phrases.json', 'utf8'));
+var data = JSON.parse(fs.readFileSync('public/assets/phrases.json', 'utf8'));
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -11,18 +11,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-	var name = "Noah";
-    res.render('pages/index', {
-    	name: name
-    });
+    res.render('pages/play');
 });
 
 app.get('/play', function(req, res) {
-    var name = "Noah";
-    res.render('pages/play', {
-    	name: name,
-    	data: data
-    });
+    res.render('pages/play');
 });
 
 app.listen(app.get('port'), function() {
