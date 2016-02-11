@@ -5,9 +5,12 @@ var data = {},
 	maxTime = 180,
 	currentPhrase,
 	currentSpeed,
+	skipPenalty = 20,
 	gameTimer,
 	timeinterval,
-	gameStartSound = new Audio("../assets/sounds/templebell.mp3");
+	gameStartSound = new Audio("../assets/sounds/templebell.wav"),
+	gameEndSound   = new Audio("../assets/sounds/asiangong.wav"),
+	gameTimerSound = new Audio("../assets/sounds/smallbell.wav");
 
 $.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
@@ -77,7 +80,7 @@ function nextPhrase() {
 		}
 		
 		currentPhrase = currentPhrase + 1;
-		currentSpeed = currentSpeed + 1;
+		currentSpeed = currentSpeed + skipPenalty;
 
 		if (currentPhrase >= list.length) {
 			generateList();
@@ -88,21 +91,26 @@ function nextPhrase() {
 function lowerTimer() {
     gameTimer = gameTimer - 1;
 
-    if(gameTimer <= 0){
+    // if ((maxTime - gameTimer)) {
+    // 	gameTimerSound.play();
+    // 	console.log("play", gameTimer%3);
+    // }
+
+    if(gameTimer <= 0) {
         gameTimer = 0;
         clearInterval(timeinterval);
         console.log("game over!")
         endRound();
         
     } else {
-    	setTimeout(lowerTimer, 1000 - currentSpeed * 20);
+    	setTimeout(lowerTimer, 1000 - currentSpeed);
     }
 
-    console.log(gameTimer);
     $('.category').html(gameTimer);
 } 
 
 function endRound() {
+	gameEndSound.play();
 	$('#game').addClass('hidden');
 	$('#gameover').removeClass('hidden');
 	$('header').addClass('hidden');
