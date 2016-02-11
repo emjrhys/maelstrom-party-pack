@@ -91,10 +91,10 @@ function nextPhrase() {
 function lowerTimer() {
     gameTimer = gameTimer - 1;
 
-    // if ((maxTime - gameTimer)) {
-    // 	gameTimerSound.play();
-    // 	console.log("play", gameTimer%3);
-    // }
+    if ((gameTimer%3 == 0)) {
+    	gameTimerSound.play();
+    	console.log("play", gameTimer%3);
+    }
 
     if(gameTimer <= 0) {
         gameTimer = 0;
