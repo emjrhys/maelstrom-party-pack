@@ -231,7 +231,8 @@
 					"name": "The Guide to Everything Book"	
 				},
 				{ 	
-					"name": "The Loop"	
+					"name": "The Loop",
+					"src": "assets/img/things/theloop.png"	
 				},
 				{
 					"name": "Design Thinking"	
@@ -416,13 +417,16 @@
 					"name": "Personalized"	
 				},
 				{
-					"name": "Observe"	
+					"name": "Observe",
+					"src": "assets/img/things/observe.png"		
 				},
 				{
-					"name": "Reflect"	
+					"name": "Reflect",
+					"src": "assets/img/things/reflect.png"		
 				},
 				{
-					"name": "Make"	
+					"name": "Make",
+					"src": "assets/img/things/make.png"		
 				},
 				{ 	
 					"name": "Outcomes"	
