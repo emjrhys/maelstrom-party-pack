@@ -120,6 +120,18 @@
 					"name": "Sassy Salad Bitches"	
 				},
 				{ 	
+					"name": "Ron Poznansky"	
+				},
+				{ 	
+					"name": "Evan Maeda"	
+				},
+				{ 	
+					"name": "Morgan Fritz"	
+				},
+				{ 	
+					"name": "The Transcriber"	
+				},
+				{ 	
 					"name": "Terry Yoo"	
 				}
 				]
@@ -202,6 +214,12 @@
 				},
 				{
 					"name": "Dave's Shortcuts"	
+				},
+				{ 	
+					"name": "Colorado"	
+				},
+				{ 	
+					"name": "Barton Springs"	
 				},
 				{
 					"name": "Shortcut to Shenanigans"	
@@ -309,7 +327,76 @@
 					"name": "Dribbble"
 				},
 				{
-					"name": "Incubator Project"
+					"name": "The IBM Bee"
+				},
+				{
+					"name": "Hertz Rental Cars"
+				},
+				{
+					"name": "Slack"
+				},
+				{
+					"name": "Giphy"
+				},
+				{ 	
+					"name": "Micro Moments"	
+				},
+				{ 	
+					"name": "White Zinfandel"	
+				},
+				{ 	
+					"name": "Black Mirror"	
+				},
+				{
+					"name": "Git"	
+				},
+				{
+					"name": "Odds Are"	
+				},
+				{
+					"name": "Lone Star"	
+				},
+				{
+					"name": "Shiner"	
+				},
+				{
+					"name": "Karaoke"	
+				},
+				{
+					"name": "Jello Shots"	
+				},
+				{
+					"name": "Margharitas"	
+				},
+				{
+					"name": "Free Staybridge Dinner"	
+				},
+				{
+					"name": "Free Staybridge Beer"	
+				},
+				{
+					"name": "Karaoke"	
+				},
+				{
+					"name": "Sharpies"	
+				},
+				{
+					"name": "White Board Markers"	
+				},
+				{
+					"name": "Breakfast Tacos"	
+				},
+				{
+					"name": "Devin's Beard"	
+				},
+				{
+					"name": "Shuffleboard"	
+				},
+				{
+					"name": "Pool"	
+				},
+				{
+					"name": "Incubator Program"
 				}
 				]
 		},
@@ -406,9 +493,6 @@
 				{ 	
 					"name": "Cognitive Computing"	
 				},
-				{ 	
-					"name": "Personalized"	
-				},
 				{
 					"name": "Observe"	
 				},
@@ -436,21 +520,22 @@
 				{ 	
 					"name": "Foundation"	
 				},
-				{ 	
-					"name": "White Zinfandel"	
-				},
-				{ 	
-					"name": "Black Mirror"	
+				{
+					"name": "Roadmap"	
 				},
 				{
-					"name": "Support, Engage, Inform"	
+					"name": "Ideate"	
+				},
+				{
+					"name": "Inform, Engage, Support"	
 				}]
 		},
 		{
 			"title": "Icons",
 			"elements":	[
 			{ 	
-				"name": "Deploy Icon"
+				"name": "Deploy Icon (Boob)",
+				"src": "assets/img/things/deploy.png"
 			}]
 
 		}]
