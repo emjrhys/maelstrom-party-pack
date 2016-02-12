@@ -38,6 +38,12 @@ h4 {
 small, .font_small {
   font-size: 0.707em; }
 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  header {
+    padding: 6px 24px !important; }
+  h2 {
+    font-size: 2.827em; } }
+
 @media only screen and (max-width: 40em) {
   header {
     padding: 6px 24px !important; }
@@ -411,7 +417,7 @@ th {
   background-color: #121212;
   height: 2px;
   width: 10px;
-  top: -3px;
+  top: -4px;
   left: -6px; }
 
 .i-right-arrow::before {
