@@ -2,21 +2,25 @@ console.log("working");
 
 var data = {},
 	list = [],
-	maxTime = 60,
+	maxTime = 180,
 	currentPhrase,
 	currentSpeed,
+	skipPenalty = 10,
 	gameTimer,
 	timeinterval,
-	gameEndSound = new Audio("../assets/sounds/templebell.mp3");
+	gameStartSound = new Audio("../assets/sounds/templebell.wav"),
+	gameEndSound   = new Audio("../assets/sounds/asiangong.wav"),
+	gameTimerSound = new Audio("../assets/sounds/smallbell.wav");
 
 $.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
 	console.log(data);
 
+	generateList();
 	init();
 });
 
-$('#next').click(nextPhrase);
+$('html, body').on('click', '#game', nextPhrase);
 
 $('#gameover button').click(init);
 
@@ -48,8 +52,6 @@ function generateList() {
 }
 
 function init() {
-	generateList();
-
 	gameTimer = maxTime;
 	currentPhrase = 0;
 	currentSpeed = 1;
@@ -59,6 +61,7 @@ function init() {
 	$('#game').removeClass('hidden');
 	$('#gameover').addClass('hidden');
 	$('header').removeClass('hidden');
+	gameStartSound.play();
 	nextPhrase();
 }
 
@@ -76,7 +79,7 @@ function nextPhrase() {
 		}
 		
 		currentPhrase = currentPhrase + 1;
-		currentSpeed = currentSpeed + 1;
+		currentSpeed = currentSpeed + skipPenalty;
 
 		if (currentPhrase >= list.length) {
 			generateList();
@@ -87,17 +90,22 @@ function nextPhrase() {
 function lowerTimer() {
     gameTimer = gameTimer - 1;
 
-    if(gameTimer <= 0){
+    if ((gameTimer%3 == 0)) {
+    	gameTimerSound.pause();
+	    gameTimerSound.currentTime = 0;
+    	gameTimerSound.play();
+    }
+
+    if(gameTimer <= 0) {
         gameTimer = 0;
         clearInterval(timeinterval);
         console.log("game over!")
         endRound();
         
     } else {
-    	setTimeout(lowerTimer, 1000 - currentSpeed * 20);
+    	setTimeout(lowerTimer, 1000 - currentSpeed);
     }
 
-    console.log(gameTimer);
     $('.category').html(gameTimer);
 } 
 

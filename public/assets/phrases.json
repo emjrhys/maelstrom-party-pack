@@ -123,6 +123,21 @@
 					"name": "Robert Chody"	
 				},
 				{ 	
+					"name": "Ron Poznansky"	
+				},
+				{ 	
+					"name": "Evan Maeda"	
+				},
+				{ 	
+					"name": "Morgan Fritz"	
+				},
+				{ 	
+					"name": "The Transcriber"	
+				},
+				{ 	
+					"name": "Shawn Dick"
+				},
+				{ 	
 					"name": "Terry Yoo"	
 				}
 				]
@@ -205,6 +220,12 @@
 				},
 				{
 					"name": "Dave's Shortcuts"	
+				},
+				{ 	
+					"name": "Colorado"	
+				},
+				{ 	
+					"name": "Barton Springs"	
 				},
 				{
 					"name": "Shortcut to Shenanigans"	
@@ -313,7 +334,76 @@
 					"name": "Dribbble"
 				},
 				{
-					"name": "Incubator Project"
+					"name": "The IBM Bee"
+				},
+				{
+					"name": "Hertz Rental Cars"
+				},
+				{
+					"name": "Slack"
+				},
+				{
+					"name": "Giphy"
+				},
+				{ 	
+					"name": "Micro Moments"	
+				},
+				{ 	
+					"name": "White Zinfandel"	
+				},
+				{ 	
+					"name": "Black Mirror"	
+				},
+				{
+					"name": "Git"	
+				},
+				{
+					"name": "Odds Are"	
+				},
+				{
+					"name": "Lone Star"	
+				},
+				{
+					"name": "Shiner"	
+				},
+				{
+					"name": "Karaoke"	
+				},
+				{
+					"name": "Jello Shots"	
+				},
+				{
+					"name": "Margharitas"	
+				},
+				{
+					"name": "Free Dinner at the Staybridge"	
+				},
+				{
+					"name": "Free Beer at the Staybridge"	
+				},
+				{
+					"name": "Karaoke"	
+				},
+				{
+					"name": "Sharpies"	
+				},
+				{
+					"name": "White Board Markers"	
+				},
+				{
+					"name": "Breakfast Tacos"	
+				},
+				{
+					"name": "Devin's Beard"	
+				},
+				{
+					"name": "Shuffleboard"	
+				},
+				{
+					"name": "Pool"	
+				},
+				{
+					"name": "Incubator Program"
 				}
 				]
 		},
@@ -331,7 +421,7 @@
 					"name": "Drinking Games"	
 				},
 				{ 	
-					"name": "Headband"	
+					"name": "Post It Game"	
 				},
 				{ 	
 					"name": "Drawful"	
@@ -370,10 +460,13 @@
 					"name": "Hiking"	
 				},
 				{
-					"name": "Getting Manicures"	
+					 "name": "Getting Manicures"	
 				},
 				{
 					"name": "Gossip"	
+				},
+				{ 	
+					"name": "Black and White"	
 				},
 				{
 					"name": "Elevator Racing"	
@@ -407,9 +500,6 @@
 				{ 	
 					"name": "Cognitive Computing"	
 				},
-				{ 	
-					"name": "Personalized"	
-				},
 				{
 					"name": "Observe",
 					"src": "assets/img/things/observe.png"		
@@ -441,14 +531,21 @@
 					"name": "Foundation"	
 				},
 				{
-					"name": "Support, Engage, Inform"	
+					"name": "Roadmap"	
+				},
+				{
+					"name": "Ideate"	
+				},
+				{
+					"name": "Inform, Engage, Support"	
 				}]
 		},
 		{
 			"title": "Icons",
 			"elements":	[
 			{ 	
-				"name": "Deploy Icon"
+				"name": "Deploy Icon (Boob)",
+				"src": "assets/img/things/deploy.png"
 			}]
 
 		}]

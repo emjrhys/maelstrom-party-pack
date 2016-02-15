@@ -9,10 +9,11 @@
 	height: 100%;
 
 	h2 {
-		font-size: 4em;
 		margin: 0;
+		font-weight: bold;
 	}
 }
+
 
 #image {
 	width: 40%;
@@ -39,11 +40,10 @@
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	padding: 60px 100px; 
+	padding: 30px 60px; 
 
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 2em;
 	letter-spacing: 1px;
 
 	color: $primary-color;
@@ -56,16 +56,13 @@
 	}
 }
 
+
 #gameover {
 	flex-direction: column;
 	justify-content: center;
 
 	background-color: $primary-color;
 	color: $white;
-
-	h2 {
-		font-weight: normal;
-	}
 
 	button {
 		margin: auto;
