@@ -65,7 +65,8 @@
 					"src": "assets/img/people/doug.jpg"
 				},
 				{ 	
-					"name": "Phil Gilbert"
+					"name": "Phil Gilbert",
+					"src": "assets/img/people/phil.jpg"
 				},
 				{ 	
 					"name": "Hayley Hughes"
@@ -89,7 +90,8 @@
 					"name": "Thomas Watson"
 				},
 				{ 	
-					"name": "Watson"
+					"name": "Watson",
+					"src": "assets/img/people/watson.jpg"
 				},
 				{ 	
 					"name": "Fahad Osmani"
@@ -132,7 +134,7 @@
 					"name": "Morgan Fritz"	
 				},
 				{ 	
-					"name": "Leah Transcriber"	
+					"name": "Leah's Transcriber"	
 				},
 				{ 	
 					"name": "Shawn Dick"
@@ -236,6 +238,9 @@
 				{ 	
 					"name": "The Container Bar"	
 				},
+				{ 	
+					"name": "Olive Garden"	
+				},
 				{
 					"name": "Shortcut to Shenanigans"	
 				}]
@@ -277,7 +282,8 @@
 					"src": "assets/img/things/theloop.png"	
 				},
 				{
-					"name": "Design Thinking"	
+					"name": "Design Thinking",
+					"src": "assets/img/things/designthinking.jpg"	
 				},
 				{
 					"name": "Design Language"	
