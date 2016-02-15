@@ -11,7 +11,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res) {
-    res.render('pages/play');
+    res.render('pages/index');
 });
 
 app.get('/play', function(req, res) {

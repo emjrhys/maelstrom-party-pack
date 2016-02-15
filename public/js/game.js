@@ -5,7 +5,7 @@ var data = {},
 	maxTime = 180,
 	currentPhrase,
 	currentSpeed,
-	skipPenalty = 20,
+	skipPenalty = 10,
 	gameTimer,
 	timeinterval,
 	gameStartSound = new Audio("../assets/sounds/templebell.wav"),
@@ -16,6 +16,7 @@ $.getJSON( "assets/phrases.json", function( d ) {
 	data = d;
 	console.log(data);
 
+	generateList();
 	init();
 });
 
@@ -51,8 +52,6 @@ function generateList() {
 }
 
 function init() {
-	generateList();
-
 	gameTimer = maxTime;
 	currentPhrase = 0;
 	currentSpeed = 1;
