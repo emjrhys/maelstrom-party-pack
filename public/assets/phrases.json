@@ -132,7 +132,7 @@
 					"name": "Morgan Fritz"	
 				},
 				{ 	
-					"name": "The Transcriber"	
+					"name": "Leah Transcriber"	
 				},
 				{ 	
 					"name": "Shawn Dick"
@@ -579,10 +579,18 @@
 		{
 			"title": "Icons",
 			"elements":	[
-			{ 	
-				"name": "Deploy Icon (Boob)",
-				"src": "assets/img/things/deploy.png"
-			}]
+				{ 	
+					"name": "Deploy Icon (Boob)",
+					"src": "assets/img/things/deploy.png"
+				}]
+
+		},
+		{
+			"title": "Quotes",
+			"elements":	[
+				{ 	
+					"name": "\"DIIIICKFUUUUUUUCK!!\""
+				}]
 
 		}]
 }
