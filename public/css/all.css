@@ -428,6 +428,12 @@ th {
 .i-right-arrow::after {
   transform: rotate(-45deg); }
 
+#home {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  color: #fff; }
+
 #game, #gameover {
   display: flex;
   align-items: center;
