@@ -132,7 +132,7 @@
 					"name": "Morgan Fritz"	
 				},
 				{ 	
-					"name": "The Transcriber"	
+					"name": "Leah Transcriber"	
 				},
 				{ 	
 					"name": "Shawn Dick"
@@ -258,7 +258,7 @@
 					"name": "Quote Wall"	
 				},
 				{ 	
-					"name": "Over Under"	
+					"name": "Over / Under"
 				},
 				{ 	
 					"name": "The Guide to Everything"	
@@ -430,6 +430,15 @@
 					"name": "Jenny's Fergie Face"	
 				},
 				{
+					"name": "Jello Shots"	
+				},
+				{
+					"name": "Microproject"	
+				},
+				{
+					"name": "Nano Project"	
+				},
+				{
 					"name": "Incubator Program"
 				}
 				]
@@ -487,13 +496,16 @@
 					"name": "Hiking"	
 				},
 				{
-					 "name": "Getting Manicures"	
+					"name": "Getting Manicures"	
 				},
 				{
 					"name": "Gossip"	
 				},
 				{ 	
 					"name": "Black and White"	
+				},
+				{
+					"name": "Rock Climbing"	
 				},
 				{
 					"name": "Elevator Racing"	
@@ -570,10 +582,18 @@
 		{
 			"title": "Icons",
 			"elements":	[
-			{ 	
-				"name": "Deploy Icon (Boob)",
-				"src": "assets/img/things/deploy.png"
-			}]
+				{ 	
+					"name": "Deploy Icon (Boob)",
+					"src": "assets/img/things/deploy.png"
+				}]
+
+		},
+		{
+			"title": "Quotes",
+			"elements":	[
+				{ 	
+					"name": "\"DIIIICKFUUUUUUUCK!!\""
+				}]
 
 		}]
 }
