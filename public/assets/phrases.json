@@ -119,6 +119,9 @@
 				{
 					"name": "Sassy Salad Bitches"	
 				},
+				{
+					"name": "Robert Chody"	
+				},
 				{ 	
 					"name": "Ron Poznansky"	
 				},
@@ -224,6 +227,12 @@
 				{ 	
 					"name": "Barton Springs"	
 				},
+				{ 	
+					"name": "Balcones Refuge"	
+				},
+				{ 	
+					"name": "The Container Bar"	
+				},
 				{
 					"name": "Shortcut to Shenanigans"	
 				}]
@@ -252,7 +261,8 @@
 					"name": "The Guide to Everything"	
 				},
 				{ 	
-					"name": "The Loop"	
+					"name": "The Loop",
+					"src": "assets/img/things/theloop.png"	
 				},
 				{
 					"name": "Design Thinking"	
@@ -398,6 +408,24 @@
 				{
 					"name": "Pool"	
 				},
+				{ 	
+					"name": "Soft Ice Machine"	
+				},
+				{ 	
+					"name": "Graffiti Park"	
+				},
+				{ 	
+					"name": "Anytizers"	
+				},
+				{ 	
+					"name": "Taylor's Prom Pictures"	
+				},
+				{ 	
+					"name": "Taylor's Man Buns"	
+				},
+				{ 	
+					"name": "Jenny's Fergie Face"	
+				},
 				{
 					"name": "Jello Shots"	
 				},
@@ -509,13 +537,16 @@
 					"name": "Cognitive Computing"	
 				},
 				{
-					"name": "Observe"	
+					"name": "Observe",
+					"src": "assets/img/things/observe.png"		
 				},
 				{
-					"name": "Reflect"	
+					"name": "Reflect",
+					"src": "assets/img/things/reflect.png"		
 				},
 				{
-					"name": "Make"	
+					"name": "Make",
+					"src": "assets/img/things/make.png"		
 				},
 				{ 	
 					"name": "Outcomes"	
