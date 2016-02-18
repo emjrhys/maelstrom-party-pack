@@ -16,7 +16,7 @@ var sliderSettings = {
             }
         },
         {
-            breakpoint:700,
+            breakpoint:600,
             settings: {
                 item:1
           	}	

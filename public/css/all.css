@@ -45,7 +45,9 @@ small, .font_small {
 
 @media only screen and (max-width: 40em) {
   h2 {
-    font-size: 2.827em; } }
+    font-size: 2.87em; }
+  h3 {
+    font-size: 1.414em; } }
 
 .hidden {
   display: none !important; }
@@ -525,8 +527,7 @@ th {
   width: 100%; }
 
 #gameover button {
-  color: #fff;
-  font-size: 2.87em; }
+  color: #fff; }
 
 #gameover button:hover {
   color: #fafafa; }
