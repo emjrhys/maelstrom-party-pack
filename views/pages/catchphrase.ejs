@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<% include ../partials/header %>
+	<title>Catchphrase | Maelstrom Party Pack</title>
+</head>
+<body>
+	<header><h1>Maelstrom <b>Catchphrase</b><!-- <i class="i-right-arrow"></i><span class="category">Everything</span> --></h1></header>
+
+	<div id="game" class="hidden">
+		<div id="image" class="hidden"></div>
+		<h2 id="phrase"></h2>
+		<button type="button" id="next"><h3>Next</h3></button>
+	</div>
+	<div id="gameover">
+		<h2>Begin Alignment</h2>
+		<button type="button" onClick="startNormal();">Normal</button>
+		<button type="button" onclick="startInfinite();">Infinite</button>
+	</div>
+
+	<script src="js/game.js"></script>
+</body>
+</html>

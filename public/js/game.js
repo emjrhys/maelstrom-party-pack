@@ -17,12 +17,9 @@ $.getJSON( "assets/phrases.json", function( d ) {
 	console.log(data);
 
 	generateList();
-	init();
 });
 
 $('html, body').on('click', '#game', nextPhrase);
-
-$('#gameover button').click(init);
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -51,13 +48,18 @@ function generateList() {
 	console.log(list.length);
 }
 
-function init() {
+function startNormal() {
 	gameTimer = maxTime;
 	currentPhrase = 0;
 	currentSpeed = 1;
 
 	timeinterval = setTimeout(lowerTimer, 1000);
 
+	startInfinite();
+}
+
+function startInfinite() {
+	$('#gameover h2').html('Alignment Complete');
 	$('#game').removeClass('hidden');
 	$('#gameover').addClass('hidden');
 	$('header').removeClass('hidden');

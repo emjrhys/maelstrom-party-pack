@@ -1,14 +1,17 @@
 <html>
 <head>
 	<% include ../partials/header %>
-	<title>Maelstrom Catchphrase</title>
+	<title>Maelstrom Party Pack</title>
 </head>
 <body>
-	<div id="home">
-		<h1>Maelstrom <b>Catchphrase</b></h1>
+	<div id="home" onload="load">
+		<ul>
+			<li><a href="/catchphrase"><h2>Catchphrase</h2></a></li>
+			<li><a href="/faceswap"><h2>Face Swap</h2></a></li>
+		</ul>
 
-		<button type="button" class="standard">Standard</button>
-		<button type="button" class="infinite">Infinite</button>
+		<footer><h1>Maelstrom Party Pack</h1></footer>
 	</div>
+	<script src="js/home.js"></script>
 </body>
 </html>
