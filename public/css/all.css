@@ -532,6 +532,10 @@ th {
 #gameover button:hover {
   color: #fafafa; }
 
+@media only screen and (max-width: 450px) {
+  #gameover .buttons {
+    justify-content: center; } }
+
 header {
   position: fixed;
   width: 100%;

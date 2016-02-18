@@ -91,3 +91,9 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 450px) { 
+	#gameover .buttons {
+		justify-content: center;
+	}
+}
