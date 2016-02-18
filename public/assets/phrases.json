@@ -140,7 +140,7 @@
 				{ 	
 					"name": "Terry Yoo"	
 				}
-				]
+			]
 		},
 		{
 			"active": true,
@@ -235,7 +235,8 @@
 				},
 				{
 					"name": "Shortcut to Shenanigans"	
-				}]
+				}
+			]
 		},
 		{
 			"active": true,
@@ -435,10 +436,13 @@
 				{
 					"name": "Nano Project"	
 				},
+				{ 	
+					"name": "Staybridge Massage Bars"
+				},
 				{
 					"name": "Incubator Program"
 				}
-				]
+			]
 		},
 		{
 			"active": true,
@@ -506,7 +510,8 @@
 				},
 				{
 					"name": "Elevator Racing"	
-				}]
+				}
+			]
 		},
 		{
 			"active": true,
@@ -574,7 +579,8 @@
 				},
 				{
 					"name": "Inform, Engage, Support"	
-				}]
+				}
+			]
 		},
 		{
 			"title": "Icons",
@@ -582,7 +588,8 @@
 				{ 	
 					"name": "Deploy Icon (Boob)",
 					"src": "assets/img/things/deploy.png"
-				}]
+				}
+			]
 
 		},
 		{
@@ -590,7 +597,17 @@
 			"elements":	[
 				{ 	
 					"name": "\"DIIIICKFUUUUUUUCK!!\""
-				}]
+				},
+				{ 	
+					"name": "\"Unicorn farts are really good.\""
+				},
+				{ 	
+					"name": "\"He can't fire all of us!\""
+				},
+				{ 	
+					"name": "\"Do it for Devin!\""
+				},
+			]
 
 		}]
 }
