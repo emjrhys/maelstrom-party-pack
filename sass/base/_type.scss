@@ -16,9 +16,7 @@ h1, h2, h3, h4 {
   line-height: 1.2;
 }
 
-h1 {
-  font-size: 1.999em;
-}
+h1 {font-size: 1.414em;}
 
 h2 {font-size: 3.998em;}
 
@@ -29,13 +27,18 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 
 @media only screen and (min-width: 64.063em) { 
-
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 	header {
 		padding: 6px 24px !important;
 	}
+
+  // h1 {font-size: 1.414em;}
+
+  h2 {font-size: 2.87em;}
+
+  h3 {font-size: 1.414em;}
 }
 
 @media only screen and (max-width: 40em) { 
