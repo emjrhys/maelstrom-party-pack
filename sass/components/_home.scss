@@ -1,7 +1,42 @@
 #home {
 	height: 100%;
 	width: 100%;
-	
+
 	background-color: $black;
 	color: $white;
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	h1 {
+		padding: 30px 0;
+		margin: 0;
+		font-weight: 300;
+	}
+
+	a {
+		display: inline-block;
+		width: 100%;
+		padding: 50px 0;
+
+		color: $white;
+		text-decoration: none;
+		font-weight: 700;
+		letter-spacing: 1px;
+
+		&:hover {
+			background-color: rgba(0, 0, 0, .15);
+		}
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+
+		text-align: center;
+		letter-spacing: .5px;
+	}
 }

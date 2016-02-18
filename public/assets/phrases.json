@@ -65,7 +65,8 @@
 					"src": "assets/img/people/doug.jpg"
 				},
 				{ 	
-					"name": "Phil Gilbert"
+					"name": "Phil Gilbert",
+					"src": "assets/img/people/phil.jpg"
 				},
 				{ 	
 					"name": "Hayley Hughes"
@@ -89,7 +90,8 @@
 					"name": "Thomas Watson"
 				},
 				{ 	
-					"name": "Watson"
+					"name": "Watson",
+					"src": "assets/img/people/watson.jpg"
 				},
 				{ 	
 					"name": "Fahad Osmani"
@@ -132,10 +134,13 @@
 					"name": "Morgan Fritz"	
 				},
 				{ 	
-					"name": "Leah Transcriber"	
+					"name": "Leah's Transcriber"	
 				},
 				{ 	
 					"name": "Shawn Dick"
+				},
+				{ 	
+					"name": "Steve Jobs"	
 				},
 				{ 	
 					"name": "Terry Yoo"	
@@ -233,6 +238,9 @@
 				{ 	
 					"name": "The Container Bar"	
 				},
+				{ 	
+					"name": "Olive Garden"	
+				},
 				{
 					"name": "Shortcut to Shenanigans"	
 				}
@@ -244,6 +252,15 @@
 			"elements": [
 				{ 	
 					"name": "Post-Its"
+				},
+				{ 	
+					"name": "Maelstrom Solstice"
+				},
+				{ 	
+					"name": "Maelstrom Equinox"
+				},
+				{ 	
+					"name": "Maelstrom Swelter"
 				},
 				{ 	
 					"name": "Moveable Whiteboards"
@@ -266,7 +283,8 @@
 					"src": "assets/img/things/theloop.png"	
 				},
 				{
-					"name": "Design Thinking"	
+					"name": "Design Thinking",
+					"src": "assets/img/things/designthinking.jpg"	
 				},
 				{
 					"name": "Design Language"	
@@ -599,6 +617,7 @@
 					"name": "\"DIIIICKFUUUUUUUCK!!\""
 				},
 				{ 	
+<<<<<<< HEAD
 					"name": "\"Unicorn farts are really good.\""
 				},
 				{ 	
@@ -608,6 +627,19 @@
 					"name": "\"Do it for Devin!\""
 				},
 			]
+=======
+					"name": "Put yourself in someone else's pants"
+				},
+				{ 	
+					"name": "That soap is dope"
+				},
+				{ 	
+					"name": "I'm actually a little aroused"
+				},
+				{ 	
+					"name": "Ask for forgiveness not permission"
+				}]
+>>>>>>> ee8d1a0f4c359d9564589838de9471c6802e7338
 
 		}]
 }

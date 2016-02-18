@@ -1,6 +1,6 @@
 console.log("working");
 
-var data = {},
+var data = null,
 	list = [],
 	maxTime = 180,
 	currentPhrase,
@@ -17,12 +17,9 @@ $.getJSON( "assets/phrases.json", function( d ) {
 	console.log(data);
 
 	generateList();
-	init();
 });
 
 $('html, body').on('click', '#game', nextPhrase);
-
-$('#gameover button').click(init);
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
@@ -40,6 +37,7 @@ function shuffle(array) {
 
 function generateList() {
 	list = [];
+	currentPhrase = 0;
 
 	data.categories.forEach(function(cat) {
 		cat.elements.forEach(function(el) {
@@ -51,13 +49,21 @@ function generateList() {
 	console.log(list.length);
 }
 
-function init() {
-	gameTimer = maxTime;
-	currentPhrase = 0;
+function startNormal() {
+	if (data == null) { return; }
+
 	currentSpeed = 1;
 
 	timeinterval = setTimeout(lowerTimer, 1000);
 
+	startInfinite();
+}
+
+function startInfinite() {
+	if (data == null) { return; }
+
+	gameTimer = maxTime;
+	$('#gameover h2').html('Alignment Complete');
 	$('#game').removeClass('hidden');
 	$('#gameover').addClass('hidden');
 	$('header').removeClass('hidden');

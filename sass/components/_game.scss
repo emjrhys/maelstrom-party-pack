@@ -37,10 +37,8 @@
 }
 
 #next, #gameover button {
-	position: absolute;
-	bottom: 0;
-	right: 0;
 	padding: 30px 60px; 
+	
 
 	text-transform: uppercase;
 	font-weight: bold;
@@ -56,22 +54,40 @@
 	}
 }
 
+#next {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 
 #gameover {
-	flex-direction: column;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 	background-color: $primary-color;
 	color: $white;
 
+	h2 {
+		width: 100%;
+		align-self: flex-end;
+	}
+
 	button {
-		margin: auto;
+		align-self: flex-end;
 		left: 0;
 
 		color: $white;
 
+		font-size: 2.87em;
+
 		&:hover {
 			color: $light-gray;
+		}
+
+		&:nth-of-type(2) {
+			left: auto;
+			right: 0;
 		}
 	}
 }
