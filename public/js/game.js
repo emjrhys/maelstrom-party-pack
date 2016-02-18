@@ -1,6 +1,6 @@
 console.log("working");
 
-var data = {},
+var data = null,
 	list = [],
 	maxTime = 180,
 	currentPhrase,
@@ -37,6 +37,7 @@ function shuffle(array) {
 
 function generateList() {
 	list = [];
+	currentPhrase = 0;
 
 	data.categories.forEach(function(cat) {
 		cat.elements.forEach(function(el) {
@@ -49,8 +50,8 @@ function generateList() {
 }
 
 function startNormal() {
-	gameTimer = maxTime;
-	currentPhrase = 0;
+	if (data == null) { return; }
+
 	currentSpeed = 1;
 
 	timeinterval = setTimeout(lowerTimer, 1000);
@@ -59,6 +60,9 @@ function startNormal() {
 }
 
 function startInfinite() {
+	if (data == null) { return; }
+
+	gameTimer = maxTime;
 	$('#gameover h2').html('Alignment Complete');
 	$('#game').removeClass('hidden');
 	$('#gameover').addClass('hidden');

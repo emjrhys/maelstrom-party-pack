@@ -545,9 +545,9 @@ header h1 b {
 header h1 .category {
   border-bottom: 2px solid #121212; }
 
-.slider img {
+.faceswap img {
   width: 100%; }
 
-header {
+.faceswap header {
   position: static;
   margin-bottom: 30px; }
