@@ -1,3 +1,8 @@
+var first_start = ["Bri", "We", "Law", "Har", "Da", "An", "Tay", "Ro", "Kev", "Jen", "Le", "Li", "No", "Dev"]
+    first_end  = ["tt", "n", "rence", "een", "ve", "die", "lor", "b", "in", "ny", "ah", "sa", "ah", "in"],
+    last_start = ["Ander", "Xio", "Humph", "God", "Hub", "Yo", "Lam", "Will", "Ya", "Lan", "Deme", "Vu", "Laff", "O'Bry"],
+    last_end   = ["son", "ng", "rey", "thi", "er", "ung", "pe", "iams", "ng", "ier", "ter", "ong", "erty", "an"];
+
 var sliderSettings = {
 	item: 4,
 	loop: true,
@@ -20,7 +25,6 @@ var sliderSettings = {
 }
 
 var sliderTop = $('#top-slider').lightSlider(sliderSettings);
-
 var sliderBot = $('#bottom-slider').lightSlider(sliderSettings);
 
 function shuffle() {

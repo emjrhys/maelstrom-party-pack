@@ -21,4 +21,29 @@ header {
 			border-bottom: 2px solid $black; 
 		}
 	}
+
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+@media only screen and (min-width: 64.063em) { 
+
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	header {
+		padding: 6px 24px !important;
+	}
+}
+
+@media only screen and (max-width: 40em) { 
+	header {
+		padding: 6px 24px !important;
+
+		i, .category {
+			display: none;
+		}
+	}
 }
