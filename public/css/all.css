@@ -507,27 +507,29 @@ th {
   right: 0; }
 
 #gameover {
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-color: #9855d4;
   color: #fff; }
 
 #gameover h2 {
-  width: 100%;
-  align-self: flex-end; }
+  width: 100%; }
+
+#gameover .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
 
 #gameover button {
-  align-self: flex-end;
-  left: 0;
   color: #fff;
   font-size: 2.87em; }
 
 #gameover button:hover {
   color: #fafafa; }
-
-#gameover button:nth-of-type(2) {
-  left: auto;
-  right: 0; }
 
 header {
   position: fixed;

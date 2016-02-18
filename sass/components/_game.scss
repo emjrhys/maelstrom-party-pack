@@ -62,21 +62,28 @@
 
 
 #gameover {
-	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 
 	background-color: $primary-color;
 	color: $white;
 
 	h2 {
 		width: 100%;
-		align-self: flex-end;
+	}
+
+	.buttons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
 	}
 
 	button {
-		align-self: flex-end;
-		left: 0;
-
 		color: $white;
 
 		font-size: 2.87em;
@@ -85,9 +92,9 @@
 			color: $light-gray;
 		}
 
-		&:nth-of-type(2) {
-			left: auto;
-			right: 0;
-		}
+		// &:nth-of-type(2) {
+		// 	left: auto;
+		// 	right: 0;
+		// }
 	}
 }
