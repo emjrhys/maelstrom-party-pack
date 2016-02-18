@@ -8,6 +8,7 @@ var sliderSettings = {
 	loop: true,
 	controls: false,
 	pager: false,
+    onBeforeSlide: resetTimer,
 	responsive: [
 		{
             breakpoint:1100,
@@ -24,10 +25,17 @@ var sliderSettings = {
 	]
 }
 
+var shuffleTimer = setTimeout(shuffle, 3000);
+
 var sliderTop = $('#top-slider').lightSlider(sliderSettings);
 var sliderBot = $('#bottom-slider').lightSlider(sliderSettings);
 
 function shuffle() {
 	sliderTop.goToSlide(Math.floor(Math.random() * 9));
 	sliderBot.goToSlide(Math.floor(Math.random() * 9));
+}
+
+function resetTimer() {
+    clearTimeout(shuffleTimer);
+    shuffleTimer = setTimeout(shuffle, 3000);
 }
