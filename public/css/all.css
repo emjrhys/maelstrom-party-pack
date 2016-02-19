@@ -559,3 +559,7 @@ header h1 .category {
 
 .faceswap ul {
   width: 100%; }
+
+.faceswap a {
+  color: #121212;
+  text-decoration: none; }

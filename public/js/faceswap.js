@@ -1,5 +1,5 @@
 var sliderSettings = {
-	item: 4,
+	item: 3,
 	loop: true,
 	controls: false,
 	pager: false,
@@ -24,6 +24,6 @@ var sliderTop = $('#top-slider').lightSlider(sliderSettings);
 var sliderBot = $('#bottom-slider').lightSlider(sliderSettings);
 
 function shuffle() {
-	sliderTop.goToSlide(Math.floor(Math.random() * 9));
-	sliderBot.goToSlide(Math.floor(Math.random() * 9));
+	sliderTop.goToSlide(Math.floor(Math.random() * 14));
+	sliderBot.goToSlide(Math.floor(Math.random() * 14));
 }
