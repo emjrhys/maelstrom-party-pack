@@ -38,18 +38,16 @@ small, .font_small {
   font-size: 0.707em; }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  header {
-    padding: 6px 24px !important; }
   h2 {
     font-size: 2.87em; }
   h3 {
     font-size: 1.414em; } }
 
 @media only screen and (max-width: 40em) {
-  header {
-    padding: 6px 24px !important; }
   h2 {
-    font-size: 2.827em; } }
+    font-size: 2.87em; }
+  h3 {
+    font-size: 1.414em; } }
 
 .hidden {
   display: none !important; }
@@ -437,7 +435,8 @@ th {
 
 #home ul {
   list-style: none;
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
 
 #home h1 {
   padding: 30px 0;
@@ -510,27 +509,32 @@ th {
   right: 0; }
 
 #gameover {
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-color: #9855d4;
   color: #fff; }
 
 #gameover h2 {
-  width: 100%;
-  align-self: flex-end; }
+  width: 100%; }
+
+#gameover .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
 
 #gameover button {
-  align-self: flex-end;
-  left: 0;
-  color: #fff;
-  font-size: 2.87em; }
+  color: #fff; }
 
 #gameover button:hover {
   color: #fafafa; }
 
-#gameover button:nth-of-type(2) {
-  left: auto;
-  right: 0; }
+@media only screen and (max-width: 450px) {
+  #gameover .buttons {
+    justify-content: center; } }
 
 header {
   position: fixed;
@@ -549,6 +553,20 @@ header h1 b {
 
 header h1 .category {
   border-bottom: 2px solid #121212; }
+
+header a {
+  text-decoration: none;
+  color: #121212; }
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  header {
+    padding: 6px 24px !important; } }
+
+@media only screen and (max-width: 40em) {
+  header {
+    padding: 6px 24px !important; }
+  header i, header .category {
+    display: none; } }
 
 .faceswap img {
   width: 100%; }
