@@ -4,7 +4,7 @@ var first_start = ["Bri", "We", "Law", "Har", "Da", "An", "Tay", "Ro", "Kev", "J
     last_end   = ["son", "ng", "rey", "thi", "er", "ung", "pe", "iams", "ng", "ier", "ter", "ong", "erty", "an"];
 
 var sliderSettings = {
-	item: 4,
+	item: 3,
 	loop: true,
 	controls: false,
 	pager: false,
@@ -31,8 +31,8 @@ var sliderBot = $('#bottom-slider').lightSlider(sliderSettings);
 var shuffleTimer = setTimeout(shuffle, 3000);
 
 function shuffle() {
-	sliderTop.goToSlide(Math.floor(Math.random() * 9));
-	sliderBot.goToSlide(Math.floor(Math.random() * 9));
+	sliderTop.goToSlide(Math.floor(Math.random() * 14));
+	sliderBot.goToSlide(Math.floor(Math.random() * 14));
 }
 
 function resetTimer() {

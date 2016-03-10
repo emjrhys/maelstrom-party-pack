@@ -577,3 +577,7 @@ header a {
 
 .faceswap ul {
   width: 100%; }
+
+.faceswap a {
+  color: #121212;
+  text-decoration: none; }
