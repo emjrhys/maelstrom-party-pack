@@ -25,10 +25,10 @@ var sliderSettings = {
 	]
 }
 
-var shuffleTimer = setTimeout(shuffle, 3000);
-
 var sliderTop = $('#top-slider').lightSlider(sliderSettings);
 var sliderBot = $('#bottom-slider').lightSlider(sliderSettings);
+
+var shuffleTimer = setTimeout(shuffle, 3000);
 
 function shuffle() {
 	sliderTop.goToSlide(Math.floor(Math.random() * 9));
